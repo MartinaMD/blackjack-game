@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>BLACKJACK</h1>
+            <div>
+                <p id="player-el"></p>
+            </div>
+        </header>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <div id="cards-img">
+            <img src="cards/ace_of_spades2.png">
+        </div>
+        <p id="value-el">Value:</p>
+        <p id="sum-el">Sum:</p>
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()">NEW CARD</button>
+        <button id="return-btn" onclick="window.location='welcome-page.html'">RETURN</button>
+        <script src="index.js"></script>
+    </body>
+
+
+</html>
